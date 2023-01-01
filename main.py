@@ -1,4 +1,4 @@
-﻿
+﻿# Python defult Timer
 from tkinter import *
 from tkinter.messagebox import showerror
 import plyer, sys
