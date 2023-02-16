@@ -15,7 +15,7 @@ def cout_znam():
             chislitel = (znamenatel//last1*first1)+(znamenatel//last2*first2)
         elif (last1%last2==0):
             znamenatel = (last1//last2)*last2
-            #chislitel = (znamenatel//last1*first1)+(znamenatel//last2*first2)
+            
         else:
             znamenatel = last1 * last2
         chislitel = (znamenatel//last1*first1)+(znamenatel//last2*first2)
