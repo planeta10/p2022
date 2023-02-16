@@ -5,8 +5,7 @@ first2 = int(input("числитель второй  дроби: "))
 last2 = int(input("знаменатель второй дроби: ")) 
 
 def cout_znam():
-    #global znam,chislitel
-#    znam = 0
+
     if(last1 == last2):
         znamenatel = last1
         chislitel = first1 + first2
@@ -23,7 +22,7 @@ def cout_znam():
     
     
     if(chislitel>znamenatel):
-        print(True)
+
         z = True
         while z:
             for i in range(2,int(znamenatel)):
@@ -35,7 +34,7 @@ def cout_znam():
                 z= False
                 break
     if(znamenatel>chislitel):
-        print(False)
+
         z = True
         while z:
             for i in range(2,int(chislitel)):
