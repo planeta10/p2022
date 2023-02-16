@@ -1,8 +1,8 @@
 global first1,last1,first2,last2
-first1 = int(input("числитель первой дроби: ")) #24
-last1 = int(input("знаменатель первой дроби: ")) #24
-first2 = int(input("числитель второй  дроби: ")) #24
-last2 = int(input("знаменатель второй дроби: ")) #24
+first1 = int(input("числитель первой дроби: ")) 
+last1 = int(input("знаменатель первой дроби: ")) 
+first2 = int(input("числитель второй  дроби: ")) 
+last2 = int(input("знаменатель второй дроби: ")) 
 
 def cout_znam():
     #global znam,chislitel
