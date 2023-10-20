@@ -30,9 +30,12 @@ def calculate_the_rank():
     showinfo("Результат",end_rank)
     return end_rank
     
-def save_to_bd():
+def save_to_bd(*args):
     ...
 if __name__ == "__main__":
-    app = rank()
-    print(app.save_to_bd("str"))
+    try:
+        app = rank()
+        print(app.save_to_bd("str"))
+    except Exception as e:
+        print(f"Anreal to start --> {e}")
      
