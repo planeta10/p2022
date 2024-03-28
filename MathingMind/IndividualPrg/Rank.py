@@ -22,7 +22,7 @@ def calculate_the_rank():
 
     constrain = lambda val, min_val, max_val:   min(max_val, max(min_val, val))
     
-    rank_list = ["Stupid","Beginner","Intermediate","Professional","Professor"]
+    rank_list = ["Noob","Beginner","Intermediate","Professional","Professor"]
     percent = sum(mistakes)/count_examples #Number of correct answers
     end_rank = rank_list[constrain(int(round(count_examples/time * percent**2 * 4)),0,4)]
     showinfo("Результат",end_rank)
